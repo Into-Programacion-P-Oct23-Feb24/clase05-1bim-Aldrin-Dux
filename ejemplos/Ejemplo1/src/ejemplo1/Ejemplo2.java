@@ -24,7 +24,7 @@ public class Ejemplo2 {
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
 
-        if (promedio >= 7.5) { // Falso
+        if (promedio >= 7.5 && promedio <= 10) { // Falso
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } // -------------
